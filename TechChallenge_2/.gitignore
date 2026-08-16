@@ -1,0 +1,36 @@
+# Enunciado do desafio (não versionar)
+*.pdf
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+.ipynb_checkpoints/
+
+# Dados locais
+# Obs: a pasta data/ É versionada (dados baixados em formato comprimido).
+# Ignoramos apenas dados descompactados/derivados para nao inchar o repo.
+*.parquet
+*.db
+data/**/*.csv
+!data/*.csv.gz
+
+# Data lake local e pasta source preparada (derivados/grandes - NUNCA versionar)
+lake/
+source/
+
+# Credenciais / segredos
+.env
+*.key
+*.pem
+credentials.json
+service-account*.json
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
