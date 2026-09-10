@@ -1,0 +1,12 @@
+{
+  "parametros": {
+    "modelo__subsample": 0.7,
+    "modelo__reg_lambda": 10.0,
+    "modelo__num_leaves": 31,
+    "modelo__n_estimators": 200,
+    "modelo__min_child_samples": 200,
+    "modelo__learning_rate": 0.05,
+    "modelo__colsample_bytree": 0.6
+  },
+  "auc": 0.6599
+}

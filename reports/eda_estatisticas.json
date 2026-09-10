@@ -1,0 +1,106 @@
+{
+  "serie_nacional": {
+    "2023": {
+      "avaliados": 1502809,
+      "taxa_geral": 58.38579619898469,
+      "taxa_rede_publica": 58.38579619898469,
+      "media_proficiencia": 747.5638427734375,
+      "taxa_ausencia": 13.985094758672547
+    },
+    "2024": {
+      "avaliados": 1851852,
+      "taxa_geral": 59.7844212172463,
+      "taxa_rede_publica": 59.78433202219645,
+      "media_proficiencia": 749.0420532226562,
+      "taxa_ausencia": 12.627419172294111
+    },
+    "2025": {
+      "avaliados": 1966605,
+      "taxa_geral": 66.25824708062879,
+      "taxa_rede_publica": 66.25747992848768,
+      "media_proficiencia": 753.5742797851562,
+      "taxa_ausencia": 11.376278122289445
+    }
+  },
+  "validacao_indicador_nacional": {
+    "2023": {
+      "calculado_microdados": 58.39,
+      "publicado_base_dos_dados": 55.9
+    },
+    "2024": {
+      "calculado_microdados": 59.78,
+      "publicado_base_dos_dados": 59.2
+    },
+    "2025": {
+      "calculado_microdados": 66.26,
+      "publicado_base_dos_dados": 66.0
+    }
+  },
+  "uf_extremos": {
+    "piores": {
+      "RN": 49.2,
+      "SE": 50.0,
+      "RS": 53.7,
+      "BA": 55.8,
+      "RR": 57.0
+    },
+    "melhores": {
+      "PI": 77.2,
+      "ES": 77.6,
+      "PR": 80.0,
+      "GO": 80.5,
+      "CE": 84.0
+    },
+    "amplitude_pp": 34.764164058969314
+  },
+  "por_dependencia_2025": {
+    "Estadual": {
+      "mean": 64.67,
+      "size": 243198
+    },
+    "Municipal": {
+      "mean": 66.48,
+      "size": 1722897
+    }
+  },
+  "estabilidade_id_escola": {
+    "ids_presentes_nos_dois_anos": 42391,
+    "pct_mesmo_municipio": 2.0098605836144463
+  },
+  "correlacao_com_alvo": {
+    "mun_taxa_alfabetizacao_lag": 0.23,
+    "mun_media_proficiencia_lag": 0.221,
+    "mun_pct_defasagem_severa_lag": -0.227,
+    "mun_dp_entre_escolas_lag": -0.096,
+    "mun_pior_escola_lag": 0.202,
+    "mun_taxa_presenca_lag": 0.121,
+    "uf_taxa_alfabetizacao_lag": 0.173,
+    "posicao_relativa_uf": 0.128,
+    "gap_meta_2030": 0.229,
+    "log_populacao": -0.092,
+    "pib_per_capita": -0.012,
+    "pct_vab_adm_publica": 0.012
+  },
+  "persistencia_municipal": {
+    "spearman_2024_2025": 0.6903049661352175,
+    "municipios": 5509
+  },
+  "correlacao_pib_taxa": 0.044357152452666,
+  "por_regiao_2025": {
+    "Norte": 63.66,
+    "Nordeste": 69.72,
+    "Centro-Oeste": 81.25,
+    "Sudeste": 74.04,
+    "Sul": 73.28
+  },
+  "heterogeneidade_interna": {
+    "dp_media_entre_escolas": 14.562614865694588,
+    "municipios_com_escola_abaixo_de_30pct": 25.630785986567435
+  },
+  "meta_2030": {
+    "municipios": 5338,
+    "ja_atingiram_2030": 35.72499063319595,
+    "abaixo_da_meta_do_ano": 27.59460472086924,
+    "gap_mediano_para_2030_pp": 6.24556737588653
+  }
+}

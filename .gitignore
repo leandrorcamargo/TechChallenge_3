@@ -1,0 +1,25 @@
+# Dados derivados — reproduzíveis a partir de data/raw + src/
+data/interim/
+data/processed/*.parquet
+!data/processed/.gitkeep
+
+# Microdados brutos do INEP (arquivos grandes, baixados do portal do INEP)
+data/raw/*.zip
+
+# Modelos serializados
+models/*.joblib
+
+# Ambiente
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.ipynb_checkpoints/
+.DS_Store
+
+# Logs de execução
+reports/log_*.txt
+
+# Saídas de conversão da apresentação
+reports/*.pdf

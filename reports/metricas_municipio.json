@@ -1,0 +1,97 @@
+{
+  "ano_base": 2025,
+  "diagnostico_safras": {
+    "2024": {
+      "corr_meta_com_taxa_anterior": 0.9765598346087767,
+      "dp_esforco_necessario": 5.99872072992711,
+      "auc_do_esforco_necessario": 0.5054955319877875
+    },
+    "2025": {
+      "corr_meta_com_taxa_anterior": 0.6407925807263362,
+      "dp_esforco_necessario": 14.75544976626702,
+      "auc_do_esforco_necessario": 0.7442359188111316
+    }
+  },
+  "baseline_analitico_auc": 0.7442359188111316,
+  "baseline_analitico_auc_estratificado": 0.7443146572111423,
+  "baseline_analitico_auc_por_uf": 0.740586493995789,
+  "fora_da_amostra": {
+    "acuracia": 0.7920569501686024,
+    "acuracia_balanceada": 0.6833000037764715,
+    "precisao": 0.6941176470588235,
+    "recall": 0.44059742023082143,
+    "f1": 0.5390365448504983,
+    "roc_auc": 0.8057915264761393,
+    "pr_auc": 0.6523448588571257,
+    "brier": 0.14743071140902725,
+    "limiar": 0.5,
+    "vn": 3579,
+    "fp": 286,
+    "fn": 824,
+    "vp": 649
+  },
+  "fora_da_amostra_por_uf": {
+    "acuracia": 0.7197452229299363,
+    "acuracia_balanceada": 0.62076005441632,
+    "precisao": 0.4904246461282265,
+    "recall": 0.3998642226748133,
+    "f1": 0.4405385190725505,
+    "roc_auc": 0.7203589580100278,
+    "pr_auc": 0.4758528089243991,
+    "brier": 0.18369652671857462,
+    "limiar": 0.5,
+    "vn": 3253,
+    "fp": 612,
+    "fn": 884,
+    "vp": 589
+  },
+  "fora_da_amostra_limiar_otimizado": {
+    "acuracia": 0.7347321094042712,
+    "acuracia_balanceada": 0.7306859389669506,
+    "precisao": 0.513774770420493,
+    "recall": 0.7216564833672776,
+    "f1": 0.6002258610954263,
+    "roc_auc": 0.8057915264761393,
+    "pr_auc": 0.6523448588571257,
+    "brier": 0.14743071140902725,
+    "limiar": 0.26999999999999996,
+    "vn": 2859,
+    "fp": 1006,
+    "fn": 410,
+    "vp": 1063
+  },
+  "treino_in_sample": {
+    "acuracia": 0.8319595354065193,
+    "acuracia_balanceada": 0.7341735543359602,
+    "precisao": 0.8050847457627118,
+    "recall": 0.5159538357094365,
+    "f1": 0.6288787753413322,
+    "roc_auc": 0.8731509561059836,
+    "pr_auc": 0.7648563021649103,
+    "brier": 0.12309608055737113,
+    "limiar": 0.5,
+    "vn": 3681,
+    "fp": 184,
+    "fn": 713,
+    "vp": 760
+  },
+  "auc_busca_hiperparametros": 0.8065390308117457,
+  "melhores_parametros": {
+    "subsample": 0.7,
+    "reg_lambda": 10.0,
+    "num_leaves": 15,
+    "n_estimators": 300,
+    "min_child_samples": 40,
+    "learning_rate": 0.02,
+    "colsample_bytree": 0.8
+  },
+  "limiar_balanceado": 0.26999999999999996,
+  "n_municipios": 5338,
+  "projecao_2026": {
+    "municipios_avaliados": 5338,
+    "municipios_em_alto_risco": 1691,
+    "pct_em_alto_risco": 31.678531285125516,
+    "criancas_em_municipios_de_alto_risco": 857718,
+    "esforco_medio_alto_risco_pp": 9.66924366450344
+  }
+}

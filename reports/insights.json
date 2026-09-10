@@ -1,0 +1,144 @@
+{
+  "aluno_top_ganho": {
+    "Proficiência média do município (ano anterior)": 37.58,
+    "Proficiência média da UF (ano anterior)": 13.45,
+    "Meta de alfabetização do ano": 7.33,
+    "Taxa de alfabetização do município (ano anterior)": 6.18,
+    "Taxa de alfabetização da UF (ano anterior)": 3.12,
+    "UF: RS": 3.11,
+    "Distância para a meta de 2030": 2.98,
+    "% de participação na avaliação": 1.89,
+    "Porte da escola (alunos avaliados)": 1.7,
+    "Diferença entre município e sua UF": 1.63
+  },
+  "aluno_top_shap": {
+    "Proficiência média do município (ano anterior)": 0.2105,
+    "Proficiência média da UF (ano anterior)": 0.1433,
+    "Meta de alfabetização do ano": 0.0843,
+    "% de participação na avaliação": 0.0417,
+    "Rede: Estadual": 0.0367,
+    "Taxa de presença na avaliação (município)": 0.0312,
+    "UF: RS": 0.0287,
+    "Taxa de alfabetização do município (ano anterior)": 0.0284,
+    "Taxa de alfabetização da UF (ano anterior)": 0.0283,
+    "Porte da escola (alunos avaliados)": 0.0273
+  },
+  "municipio_top_ganho": {
+    "Esforço necessário para bater a meta (p.p.)": 22.16,
+    "Distância para a meta do ano": 20.7,
+    "Meta de alfabetização do ano": 8.82,
+    "Dispersão da proficiência no município": 6.72,
+    "Taxa de presença na avaliação (município)": 5.27,
+    "População do município (log)": 4.92,
+    "Alunos avaliados no município (ano anterior)": 4.55,
+    "Região: Nordeste": 4.43,
+    "Região: Centro-Oeste": 2.9,
+    "Proficiência média do município (ano anterior)": 2.75
+  },
+  "municipio_top_shap": {
+    "Esforço necessário para bater a meta (p.p.)": 0.373,
+    "Distância para a meta do ano": 0.369,
+    "Meta de alfabetização do ano": 0.3257,
+    "Dispersão da proficiência no município": 0.2048,
+    "Taxa de presença na avaliação (município)": 0.1423,
+    "População do município (log)": 0.1219,
+    "Região: Centro-Oeste": 0.1014,
+    "Alunos avaliados no município (ano anterior)": 0.0987,
+    "Região: Sudeste": 0.0948,
+    "Região: Nordeste": 0.0788
+  },
+  "risco_por_regiao": {
+    "Norte": {
+      "risco_medio": 48.43,
+      "alunos": 211073,
+      "taxa_real": 60.74
+    },
+    "Nordeste": {
+      "risco_medio": 40.26,
+      "alunos": 502869,
+      "taxa_real": 66.72
+    },
+    "Sul": {
+      "risco_medio": 36.71,
+      "alunos": 302197,
+      "taxa_real": 67.32
+    },
+    "Sudeste": {
+      "risco_medio": 33.65,
+      "alunos": 768370,
+      "taxa_real": 65.21
+    },
+    "Centro-Oeste": {
+      "risco_medio": 31.38,
+      "alunos": 181586,
+      "taxa_real": 74.05
+    }
+  },
+  "top_municipios_massa_de_risco": [
+    {
+      "nome_municipio_ibge": "São Paulo",
+      "sigla_uf": "SP",
+      "criancas_em_risco": 35302.98,
+      "risco_medio": 0.37
+    },
+    {
+      "nome_municipio_ibge": "Rio de Janeiro",
+      "sigla_uf": "RJ",
+      "criancas_em_risco": 16073.9,
+      "risco_medio": 0.37
+    },
+    {
+      "nome_municipio_ibge": "Manaus",
+      "sigla_uf": "AM",
+      "criancas_em_risco": 11707.17,
+      "risco_medio": 0.48
+    },
+    {
+      "nome_municipio_ibge": "Brasília",
+      "sigla_uf": "DF",
+      "criancas_em_risco": 9245.56,
+      "risco_medio": 0.39
+    },
+    {
+      "nome_municipio_ibge": "Salvador",
+      "sigla_uf": "BA",
+      "criancas_em_risco": 7492.32,
+      "risco_medio": 0.61
+    },
+    {
+      "nome_municipio_ibge": "Guarulhos",
+      "sigla_uf": "SP",
+      "criancas_em_risco": 6544.7,
+      "risco_medio": 0.46
+    },
+    {
+      "nome_municipio_ibge": "Porto Alegre",
+      "sigla_uf": "RS",
+      "criancas_em_risco": 4982.43,
+      "risco_medio": 0.68
+    },
+    {
+      "nome_municipio_ibge": "Campo Grande",
+      "sigla_uf": "MS",
+      "criancas_em_risco": 4564.24,
+      "risco_medio": 0.45
+    },
+    {
+      "nome_municipio_ibge": "Belém",
+      "sigla_uf": "PA",
+      "criancas_em_risco": 4525.2,
+      "risco_medio": 0.5
+    },
+    {
+      "nome_municipio_ibge": "Belo Horizonte",
+      "sigla_uf": "MG",
+      "criancas_em_risco": 4505.24,
+      "risco_medio": 0.27
+    }
+  ],
+  "concentracao_do_risco": {
+    "municipios_para_50pct_do_risco": 228,
+    "total_municipios": 5556,
+    "total_criancas_em_risco_estimadas": 731109.5456425654
+  }
+}

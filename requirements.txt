@@ -1,0 +1,14 @@
+# Tech Challenge — Fase 3
+# Testado com Python 3.11
+
+pandas==3.0.2
+numpy==2.4.4
+pyarrow==25.0.1
+scikit-learn==1.8.0
+lightgbm==4.7.0
+shap==0.51.0
+matplotlib==3.10.9
+seaborn==0.13.2
+joblib==1.5.3
+python-pptx==1.0.2
+jupyter==1.1.1
