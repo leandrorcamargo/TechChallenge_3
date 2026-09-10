@@ -26,7 +26,7 @@
 # COMMAND ----------
 
 # DBTITLE 1,Instalação de Dependências
-# MAGIC %pip install xgboost
+# MAGIC %pip install xgboost shap
 
 # COMMAND ----------
 
