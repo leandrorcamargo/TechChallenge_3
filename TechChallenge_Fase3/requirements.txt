@@ -1,0 +1,17 @@
+# Core data processing
+pandas>=1.5.0
+numpy>=1.23.0
+pyspark>=3.3.0
+
+# Machine Learning
+scikit-learn>=1.2.0
+xgboost>=1.7.0
+
+# Visualization
+matplotlib>=3.6.0
+seaborn>=0.12.0
+shap>=0.41.0
+
+# Utilities
+jupyter>=1.0.0
+notebook>=6.5.0
